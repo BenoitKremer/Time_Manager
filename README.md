@@ -14,3 +14,13 @@ Actually in my ```.env``` i got :
 - **DB_PASSWORD**
 - **DB_HOST**
 - **DB_NAME**
+
+But there are default settings too.
+
+### Router
+
+Here is all routes:
+
+![Routes API](./Routes.png)
+
+you can also check them on your [localhost](localhost:4000) at port 4000

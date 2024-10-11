@@ -7,6 +7,18 @@ defmodule BackendWeb.Router do
 
   scope "/api", BackendWeb do
     pipe_through :api
+
+    get "/users", UserController, :index
+    get "/users/:id", UserController, :show
+    post "/users", UserController, :create
+    put "/users/:id", UserController, :update
+    delete "/users/:id", UserController, :delete
+
+    get "/tasks", TaskController, :index
+    get "/tasks/:id", TaskController, :show
+    post "/tasks", TaskController, :create
+    put "/tasks/:id", TaskController, :update
+    delete "/tasks/:id", TaskController, :delete
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
