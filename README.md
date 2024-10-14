@@ -10,10 +10,7 @@ And type ```source .env``` where your file is.
 
 Actually in my ```.env``` i got :
 
-- **DB_USERNAME**
-- **DB_PASSWORD**
-- **DB_HOST**
-- **DB_NAME**
+- **DATABASE_URL**
 
 But there are default settings too.
 
